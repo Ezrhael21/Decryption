@@ -6,7 +6,9 @@
 # Ask the user for input
 user_text = input("Input your message to decrypt: ")
 # Replace the character to its corresponding value
+decrypted_string = user_text.replace("*", "a")
 # Print Output
+print (decrypted_string)
 
 
 
