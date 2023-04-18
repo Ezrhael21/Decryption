@@ -3,6 +3,10 @@
 # 04/17/2023
 # Program 2 - Decryption
 
+import pyfiglet
+
+font = pyfiglet.figlet_format("Code Decryption", font = "big" )
+
 # Introduction to the program
 Name=input("Enter your username: ")
 print ("Hello!", Name,)
