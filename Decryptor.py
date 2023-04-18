@@ -17,6 +17,11 @@ while moredata:
 
     # Ask the user for input
     user_text = input("Input your message to decrypt: ")
+
+    # Time Delay
+    print ("Processing...")
+    import time
+    time.sleep(5)
     
     # Replace the character to its corresponding value
     decrypted_string = user_text.replace("*", "a").replace("&", "e").replace("#", "i").replace("+", "o").replace("!", "u")
