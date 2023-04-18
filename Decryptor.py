@@ -3,6 +3,11 @@
 # 04/17/2023
 # Program 2 - Decryption
 
+# Introduction to the program
+Name=input("Enter your username: ")
+print ("Hello!", Name,)
+print ("Today, we are going to decrypt a code")
+
 moredata = True
 while moredata:
 
@@ -13,7 +18,8 @@ while moredata:
     decrypted_string = user_text.replace("*", "a").replace("&", "e").replace("#", "i").replace("+", "o").replace("!", "u")
     
     # Print Output
-    print (decrypted_string)
+    print ("Original Message : ", user_text)
+    print ("Decrypted Message: ", decrypted_string)
 
     while True:
         repeat = input("Do you want to try again? (Yes/No): ")
